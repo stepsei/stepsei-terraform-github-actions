@@ -14,7 +14,7 @@ env:
 jobs:
   terraform:
     # if: github.repository != 'stepsei/stepsei-terraform-github-actions'
-    if: github.repository = 'stepsei/stepsei-terraform-github-actions'
+    # if: github.repository = 'stepsei/stepsei-terraform-github-actions'
     name: "Terraform Apply"
     runs-on: ubuntu-latest
     permissions:
