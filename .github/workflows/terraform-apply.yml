@@ -7,7 +7,7 @@ on:
 
 env:
   TF_CLOUD_ORGANIZATION: "stepsei-terraform-github-actions"
-  TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
+  TF_API_TOKEN: "${{ secrets.STEPSEI_TF_API_TOKEN }}"
   TF_WORKSPACE: "stepsei-demo1-terraform-github-actions"
   CONFIG_DIRECTORY: "./"
 
